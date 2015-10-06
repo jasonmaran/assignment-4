@@ -17,10 +17,16 @@ p {
 	font-size: 32px;
 }
 
+nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 750px;
+	margin-left: 75px;
+}
+
 ul {
 	list-style-type: none;
-	margin-bottom: 25px;
-
+	
 }
 
 li {
@@ -32,9 +38,36 @@ li {
 a {
 	text-decoration: none;
 	color: black;
-	padding: 3px;
 	margin: 3px;
 }
 a:hover {
 	color: blue;
+}
+
+.eye {
+	margin-top: 10px;
+}
+
+.biobody {
+	width: 750px;
+	margin: 0 auto;
+}
+.hans {
+	float: left;
+	margin-right: 10px;
+}
+
+.bioheader {
+	font-size: 48;
+	text-transform: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.author {
+	margin-top: 8px;
+}
+.bio {
+	font-size: 18px;
+	text-align: left;
 }
